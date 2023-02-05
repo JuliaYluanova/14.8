@@ -9,7 +9,7 @@ include_once 'head.php';
 <head>
     <title>SPA-САЛОН</title>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/stayle.css">
    
 </head>
 <body>
