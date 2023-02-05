@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-$fdate = $_SESSION['ddline'];
+$fdate = !empty($_SESSION['ddline']);
 $date = strtotime('Now');
 $hours = floor(floor(($fdate - $date) / (60 * 60)) % 24);
 $minutes = floor(floor(($fdate - $date) / 60) % 60);
